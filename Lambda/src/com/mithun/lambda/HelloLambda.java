@@ -33,7 +33,7 @@ public class HelloLambda {
         FunToMethod fun = (a,b) -> a* b;
         printMultiple(fun);*/
 
-        //Method Ref demo
+        //Method Ref by :: demo
         MethodRef ref = HelloLambda::helloRef;
         ref.helloMRef();
     }
