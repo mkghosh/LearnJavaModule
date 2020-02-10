@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce04dcb2-2504-4432-9d64-6fbe43b73697" name="Default Changelist" comment="Completed some practice with lambda">
-      <change afterPath="$PROJECT_DIR$/Lambda/src/com/mithun/lambda/FunctionalInterfaceDemo.java" afterDir="false" />
+    <list default="true" id="ce04dcb2-2504-4432-9d64-6fbe43b73697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstModule/src/com/mithun/MyModuleFile.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FirstModule/src/com/mithun/prac1/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstModule/src/com/mithun/prac1/Practice1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lambda/src/com/mithun/lambda/HelloLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lambda/src/com/mithun/lambda/HelloLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581323025673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed practice using lambda">
+      <created>1581329134689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581329134689</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,7 +160,8 @@
     <MESSAGE value="Added xmls and project configurations to the repository" />
     <MESSAGE value="updated a comment" />
     <MESSAGE value="Completed some practice with lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed some practice with lambda" />
+    <MESSAGE value="Completed practice using lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed practice using lambda" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="46" key="#Notifications" timestamp="1581322146842">
@@ -169,46 +176,46 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="800" y="80" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581314972886" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1581329075685">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1581329132611">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state width="1322" height="225" key="GridCell.Tab.0.bottom" timestamp="1581329075685">
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581329132611" />
+    <state width="1322" height="225" key="GridCell.Tab.0.bottom" timestamp="1581334811384">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state width="1322" height="225" key="GridCell.Tab.0.center" timestamp="1581329075685">
+    <state width="1322" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581334811384" />
+    <state width="1322" height="225" key="GridCell.Tab.0.center" timestamp="1581334811384">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="225" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state width="1322" height="225" key="GridCell.Tab.0.left" timestamp="1581329075685">
+    <state width="1322" height="225" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581334811384" />
+    <state width="1322" height="225" key="GridCell.Tab.0.left" timestamp="1581334811384">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="225" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state width="1322" height="225" key="GridCell.Tab.0.right" timestamp="1581329075685">
+    <state width="1322" height="225" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581334811384" />
+    <state width="1322" height="225" key="GridCell.Tab.0.right" timestamp="1581334811384">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="225" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state width="1322" height="225" key="GridCell.Tab.1.bottom" timestamp="1581329075685">
+    <state width="1322" height="225" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581334811384" />
+    <state width="1322" height="225" key="GridCell.Tab.1.bottom" timestamp="1581334811261">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="225" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state width="1322" height="225" key="GridCell.Tab.1.center" timestamp="1581329075685">
+    <state width="1322" height="225" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581334811261" />
+    <state width="1322" height="225" key="GridCell.Tab.1.center" timestamp="1581334811261">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="225" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state width="1322" height="225" key="GridCell.Tab.1.left" timestamp="1581329075685">
+    <state width="1322" height="225" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581334811261" />
+    <state width="1322" height="225" key="GridCell.Tab.1.left" timestamp="1581334811261">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="225" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state width="1322" height="225" key="GridCell.Tab.1.right" timestamp="1581329075685">
+    <state width="1322" height="225" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581334811261" />
+    <state width="1322" height="225" key="GridCell.Tab.1.right" timestamp="1581334811261">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="225" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581329075685" />
-    <state x="275" y="121" key="Vcs.Push.Dialog.v2" timestamp="1581322957944">
+    <state width="1322" height="225" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581334811261" />
+    <state x="275" y="121" key="Vcs.Push.Dialog.v2" timestamp="1581329144671">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581322957944" />
+    <state x="275" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581329144671" />
     <state x="390" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1581322643847">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
