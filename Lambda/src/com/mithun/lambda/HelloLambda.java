@@ -1,5 +1,6 @@
 package com.mithun.lambda;
 
+@FunctionalInterface
 interface HelloInterface {
     void displayHello();
 
@@ -8,10 +9,12 @@ interface HelloInterface {
     }
 }
 
+@FunctionalInterface
 interface FunToMethod {
     double multipleOfTwo(double a, double b);
 }
 
+@FunctionalInterface
 interface MethodRef {
     void helloMRef();
 }
