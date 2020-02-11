@@ -66,9 +66,9 @@ public class Practice1 {
 
         //Consumer Demo
         Consumer<String> consumer = s -> System.out.println(s.toUpperCase());
-        consumer.accept("mithun Kumer ghose");
+//        consumer.accept("mithun Kumer ghose");
         Consumer<String> con = MessageUtil::sendMessage;
-        con.accept("Account has been credited");
+//        con.accept("Account has been credited");
 
     }
 }
