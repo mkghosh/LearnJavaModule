@@ -106,11 +106,12 @@ public class LinkedList {
             else {
                 Node tmp = header.getNext();
                 int counter = 1;
-                while (counter < pos -1) {
+                while (counter != pos -1) {
                     tmp = tmp.getNext();
                     counter++;
                 }
                 tmp.setNext(tmp.getNext().getNext());
+                size--;
             }
         }
     }

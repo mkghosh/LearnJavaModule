@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce04dcb2-2504-4432-9d64-6fbe43b73697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedListImpl/LinkedListImpl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedListImpl/src/com/mithun/lnkd/lst/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedListImpl/src/com/mithun/lnkd/lst/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedListImpl/src/com/mithun/lnkd/lst/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/com/mithun/udemy/PassingByValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstModule/src/com/mithun/prac1/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstModule/src/com/mithun/prac1/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstModule/FirstModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstModule/src/com/mithun/diffyhel/DH.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/com/mithun/diffyhel/DH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstModule/src/com/mithun/prac1/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/com/mithun/prac1/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListImpl/src/com/mithun/lnkd/lst/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListImpl/src/com/mithun/lnkd/lst/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +62,10 @@
       <recent name="F:\Personal\java\LearnJavaModule" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.PassingByValue">
     <configuration name="DH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mithun.diffyhel.DH" />
-      <module name="FirstModule" />
+      <module name="Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mithun.diffyhel.*" />
@@ -102,9 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PassingByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithun.udemy.PassingByValue" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mithun.udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mithun.prac1.Practice1" />
-      <module name="FirstModule" />
+      <module name="Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mithun.prac1.*" />
@@ -117,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PassingByValue" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Practice1" />
         <item itemvalue="Application.HelloLambda" />
@@ -177,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581335737504</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed implementing singly linked list">
+      <created>1581403712064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581403712064</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,7 +208,8 @@
     <MESSAGE value="Completed some practice with lambda" />
     <MESSAGE value="Completed practice using lambda" />
     <MESSAGE value="Completed predicate consumer and some other predefined functional interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed predicate consumer and some other predefined functional interface" />
+    <MESSAGE value="Completed implementing singly linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed implementing singly linked list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="46" key="#Notifications" timestamp="1581322146842">
@@ -210,50 +232,50 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="363" y="116" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768@0.0.1366.768" timestamp="1581403522837" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1581403695500">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1581403709727">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581403695500" />
-    <state width="661" height="174" key="GridCell.Tab.0.bottom" timestamp="1581403695515">
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581403709727" />
+    <state width="282" height="164" key="GridCell.Tab.0.bottom" timestamp="1581421578496">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="174" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581403695515" />
-    <state width="661" height="174" key="GridCell.Tab.0.center" timestamp="1581403695515">
+    <state width="282" height="164" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581421578496" />
+    <state width="282" height="164" key="GridCell.Tab.0.center" timestamp="1581421578496">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="174" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581403695515" />
-    <state width="661" height="174" key="GridCell.Tab.0.left" timestamp="1581403695515">
+    <state width="282" height="164" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581421578496" />
+    <state width="282" height="164" key="GridCell.Tab.0.left" timestamp="1581421578496">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="174" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581403695515" />
-    <state width="661" height="174" key="GridCell.Tab.0.right" timestamp="1581403695515">
+    <state width="282" height="164" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581421578496" />
+    <state width="282" height="164" key="GridCell.Tab.0.right" timestamp="1581421578496">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="174" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581403695515" />
-    <state width="661" height="224" key="GridCell.Tab.1.bottom" timestamp="1581399449310">
+    <state width="282" height="164" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581421578496" />
+    <state width="661" height="224" key="GridCell.Tab.1.bottom" timestamp="1581403732899">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="224" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581399449310" />
-    <state width="661" height="224" key="GridCell.Tab.1.center" timestamp="1581399449310">
+    <state width="661" height="224" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581403732899" />
+    <state width="661" height="224" key="GridCell.Tab.1.center" timestamp="1581403732899">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="224" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581399449310" />
-    <state width="661" height="224" key="GridCell.Tab.1.left" timestamp="1581399449310">
+    <state width="661" height="224" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581403732899" />
+    <state width="661" height="224" key="GridCell.Tab.1.left" timestamp="1581403732899">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="224" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581399449310" />
-    <state width="661" height="224" key="GridCell.Tab.1.right" timestamp="1581399449310">
+    <state width="661" height="224" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581403732899" />
+    <state width="661" height="224" key="GridCell.Tab.1.right" timestamp="1581403732899">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="224" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581399449310" />
-    <state x="275" y="121" key="Vcs.Push.Dialog.v2" timestamp="1581335741279">
+    <state width="661" height="224" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581403732899" />
+    <state x="275" y="121" key="Vcs.Push.Dialog.v2" timestamp="1581403720232">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581335741279" />
-    <state x="390" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1581394212521">
+    <state x="275" y="121" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581403720232" />
+    <state x="390" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1581573825006">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="390" y="213" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581394212521" />
+    <state x="390" y="213" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581573825006" />
     <state x="494" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581322798790">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
