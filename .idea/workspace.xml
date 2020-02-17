@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce04dcb2-2504-4432-9d64-6fbe43b73697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Practice/src/com/mithun/prac/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice/src/com/mithun/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/src/com/mithun/diffyhel/DH.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/com/mithun/diffyhel/DH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/src/com/mithun/prac1/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/src/com/mithun/prac/Practice1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="F:\Personal\java\LearnJavaModule" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DH">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="DH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mithun.diffyhel.DH" />
       <module name="Practice" />
@@ -112,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mithun.prac.Practice1" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mithun.Solution" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mithun.prac.*" />
+          <option name="PATTERN" value="com.mithun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DH" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.PassingByValue" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Practice1" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581573856850</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated DH">
+      <created>1581927634950</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581927634950</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,7 +219,8 @@
     <MESSAGE value="Completed predicate consumer and some other predefined functional interface" />
     <MESSAGE value="Completed implementing singly linked list" />
     <MESSAGE value="updated df and others" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated df and others" />
+    <MESSAGE value="Updated DH" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated DH" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="46" key="#Notifications" timestamp="1581322146842">
@@ -241,26 +247,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="134" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581585542146" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1581573853976">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1581927632184">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581573853976" />
-    <state width="661" height="173" key="GridCell.Tab.0.bottom" timestamp="1581586989422">
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581927632184" />
+    <state width="661" height="173" key="GridCell.Tab.0.bottom" timestamp="1581933902777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="173" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581586989422" />
-    <state width="661" height="173" key="GridCell.Tab.0.center" timestamp="1581586989422">
+    <state width="661" height="173" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581933902777" />
+    <state width="661" height="173" key="GridCell.Tab.0.center" timestamp="1581933902777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="173" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581586989422" />
-    <state width="661" height="173" key="GridCell.Tab.0.left" timestamp="1581586989422">
+    <state width="661" height="173" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581933902777" />
+    <state width="661" height="173" key="GridCell.Tab.0.left" timestamp="1581933902777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="173" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581586989422" />
-    <state width="661" height="173" key="GridCell.Tab.0.right" timestamp="1581586989422">
+    <state width="661" height="173" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581933902777" />
+    <state width="661" height="173" key="GridCell.Tab.0.right" timestamp="1581933902777">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="661" height="173" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581586989422" />
+    <state width="661" height="173" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581933902777" />
     <state width="661" height="224" key="GridCell.Tab.1.bottom" timestamp="1581403732899">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -285,10 +291,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="390" y="213" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581915342374" />
-    <state x="494" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581322798790">
+    <state x="494" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581927641892">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="494" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1581322798790" />
+    <state x="494" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1581927641892" />
     <state x="65" y="11" key="new project wizard" timestamp="1581573892445">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
