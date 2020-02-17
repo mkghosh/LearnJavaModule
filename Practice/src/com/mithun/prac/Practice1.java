@@ -1,4 +1,4 @@
-package com.mithun.prac1;
+package com.mithun.prac;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
