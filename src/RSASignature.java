@@ -27,44 +27,45 @@ public class RSASignature {
                 sb.append(arg);
                 sb.append(" ");
             }
-        } else {
-            System.out.println("Please provide your message to generate and verify signature for.");
-        }
-        String message = sb.toString();
-        System.out.println("=======================================================");
-        System.out.println("Initializing Signature Generation");
-        System.out.println("Your Message is below : \n" + message);
 
-        KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA");
-        keyGen.initialize(1024, new SecureRandom());
-        KeyPair keyPair = keyGen.generateKeyPair();
+            String message = sb.toString();
+            System.out.println("=======================================================");
+            System.out.println("Initializing Signature Generation");
+            System.out.println("Your Message is below : \n" + message);
 
-        Signature signature = Signature.getInstance("SHA1withRSA");
+            KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA");
+            keyGen.initialize(1024, new SecureRandom());
+            KeyPair keyPair = keyGen.generateKeyPair();
 
-        // generate a signature
-        signature.initSign(keyPair.getPrivate());
+            Signature signature = Signature.getInstance("SHA1withRSA");
 
-        //Create a signature of command line message
-        signature.update(message.getBytes());
-        byte[] sigBytes = signature.sign();
-        System.out.println("The Signature of your message is : " + sigBytes.toString());
-        System.out.println("=======================================================");
+            // generate a signature
+            signature.initSign(keyPair.getPrivate());
 
-        // verify a signature
-        //You shoud implement verification steps
-        System.out.println("\n=======================================================");
-        System.out.println("Initializing verification");
-        signature.initVerify(keyPair.getPublic());
+            //Create a signature of command line message
+            signature.update(message.getBytes());
+            byte[] sigBytes = signature.sign();
+            System.out.println("The Signature of your message is : " + sigBytes.toString());
+            System.out.println("=======================================================");
+
+            // verify a signature
+            //You shoud implement verification steps
+            System.out.println("\n=======================================================");
+            System.out.println("Initializing verification");
+            signature.initVerify(keyPair.getPublic());
         /*
         You can give a different message here if you want to test.
          */
-        signature.update(message.getBytes());
-        if (signature.verify(sigBytes)) {
-            System.out.println("The Signature is verified successfully");
+            signature.update(message.getBytes());
+            if (signature.verify(sigBytes)) {
+                System.out.println("The Signature is verified successfully");
+            } else {
+                System.out.println("The signature verification failed.");
+            }
+            System.out.println("=======================================================");
         } else {
-            System.out.println("The signature verification failed.");
+            System.out.println("Please provide your message to generate and verify signature for.");
         }
-        System.out.println("=======================================================");
     }
 
 }
