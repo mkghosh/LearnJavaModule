@@ -1,41 +1,40 @@
-package com.mithun;
+package com.mithun.prac;
 
 import java.util.*;
-import java.io.*;
 
-class Node {
-    Node left, right;
+class Node1 {
+    Node1 left, right;
     int data;
 
-    Node(int data) {
+    Node1(int data) {
         this.data = data;
         left = right = null;
     }
 }
 
-class Solution {
+class Solution1 {
 
-    static void levelOrder(Node root) {
+    static void levelOrder(Node1 root) {
         //Write your code here
-        Queue<Node> nodeQueue = new LinkedList<>();
+        Queue<Node1> node1Queue = new LinkedList<>();
         if(root != null) {
-            nodeQueue.add(root);
+            node1Queue.add(root);
         }
-        while (!nodeQueue.isEmpty()) {
-            Node tmp = nodeQueue.poll();
+        while (!node1Queue.isEmpty()) {
+            Node1 tmp = node1Queue.poll();
             System.out.print(tmp.data + " ");
             if (tmp.left != null)
-                nodeQueue.add(tmp.left);
+                node1Queue.add(tmp.left);
             if (tmp.right != null)
-                nodeQueue.add(tmp.right);
+                node1Queue.add(tmp.right);
         }
     }
 
-    public static Node insert(Node root, int data) {
+    public static Node1 insert(Node1 root, int data) {
         if (root == null) {
-            return new Node(data);
+            return new Node1(data);
         } else {
-            Node cur;
+            Node1 cur;
             if (data <= root.data) {
                 cur = insert(root.left, data);
                 root.left = cur;
@@ -50,7 +49,7 @@ class Solution {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
-        Node root = null;
+        Node1 root = null;
         while (T-- > 0) {
             int data = sc.nextInt();
             root = insert(root, data);
